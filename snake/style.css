@@ -1,0 +1,7 @@
+html {
+    background-image: url("https://i.stack.imgur.com/jGlzr.pngs");
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}

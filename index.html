@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corey Beaver</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/e0a92b72ca.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/vs_code.png" alt="vs_code">
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+                 <span class="hamburger"></span>
+             </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home">Home</a></li>
+                <li class="nav__item"><a href="#services">My Services</a></li>
+                <li class="nav__item"><a href="#about">About Me</a></li>
+                <li class="nav__item"><a href="#work">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Corey Beaver</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Programmer</p>
+        <img src="img/me.png" alt="Picture of me" class="intro__img">
+    </section>
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Front-End Web-Development</h3>
+                <p> I am currently getting better at Front-End design using elements such as html, css, and javascript</p>
+            </div>
+            <div class="service">
+                <h3>Game Development</h3>
+                <p>I started out my Computer Science carrer in Game Development. I have developed and published several games, two of which have been done by my team and I , 'Indie Game Devs'
+                </p>
+            </div>
+            <div class="service">
+                <h3>Using OpenGL</h3>
+                <p>I have recenly been poking around in LWJGL, which has a Java binding for OpenGl and Glfw. I have not made anything with it but I understand the basics of the API</p>
+            </div>
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">
+            Programmer and 3d Artist
+        </p>
+
+        <div class="about-me__body">
+            <p>I am a programmer from the United States. I have developed and published a number of games. I can develop games in bolth unity and lwjgl. I dont just make games, I am also currently developing a lwjgl game engine. I plan to have an ECS system
+                and 3d rendering capabilities in the engine.</p>
+            <p>In order to develop some of these games, i had to learn how to make 3d models. I learned blender and know how to make stunning 3d renders in the program.</p>
+        </div>
+        <img src="img/me_in_a_car.PNG" alt="Me in a car" class="about-me__img">
+    </section>
+
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section_subtitle">Some of my projects</p>
+
+        <div class="portfolio">
+            <a href="https://rhysimus.itch.io/untitled-seagull-simulator" class="portfolio__item">
+                <img src="img/uss_screenshot.png" alt="Image to my game" class="portfolio__img">
+            </a>
+            <a href="https://github.com/DevStuffzz/Kryptonite" class="portfolio__item">
+                <img src="img/kryptonite_logo.png" alt="Image to my Game Engine" class="portfolio__img">
+            </a>
+            <a href="https://github.com/DevStuffzz/UtiliJ" class="portfolio__item">
+                <img src="img/UtiliJLogo.jpg" alt="Image to my java library" class="portfolio__img">
+            </a>
+            <a href="snake/snake.html" class="portfolio__item">
+                <img src="data:image/png;base64,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" alt="snake game img" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="mailto:cb050129@gmail.com" class="footer__link">cb050129@gmail.com</a>
+        <ul class="social-list">
+            <li class="solial-list__item">
+                <a href="https://www.freecodecamp.org/devstuffz" class="social-list__link><i class="fab fa-free-code-camp"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/DevStuffzz" class="social-list__link"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://indiegamedevs.itch.io/" class="social-list__link"><i class="fab fa-itch-io"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://stackoverflow.com/users/14091272/devstuffz"><i class="fab fa-stack-overflow"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://codepen.io/devstuffzz"><i class="fab fa-codepen"></i></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
