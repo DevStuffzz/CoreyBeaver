@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
 *,
 *::before,
 *::after {
@@ -5,12 +7,12 @@
 }
 
 :root {
-    --ff-primary: 'Staaliches', monospace;
+    --ff-primary: 'Comfortaa', cursive;
     -fw-reg: 300;
     --fw-bold: 900;
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #f8923f;
     --fs-h1: 3rem;
     --fs-h2: 1.25rem;
     --fs-h3: 1.25rem;
