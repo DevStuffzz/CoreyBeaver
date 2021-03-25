@@ -12,7 +12,7 @@
     --fw-bold: 900;
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #f8923f;
+    --clr-accent: #004E7C;
     --fs-h1: 3rem;
     --fs-h2: 1.25rem;
     --fs-h3: 1.25rem;
@@ -48,7 +48,7 @@ img {
 }
 
 strong {
-    font-weight: var(--fw-bold);
+    color: var(--clr-accent);
 }
 
 :focus {
@@ -166,6 +166,11 @@ h3 {
     background: currentColor;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .services {
     margin-bottom: 4em;
 }
@@ -259,7 +264,7 @@ header {
 }
 
 .nav__item a {
-    color: var(--clr-light);
+    color: var(--clr-dark);
     font-weight: var(--fw-bold);
     font-size: var(--fs-h1);
     text-decoration: none;
@@ -398,4 +403,26 @@ header {
 
 .social-list__link {
     padding: .5em;
+}
+
+.surveys {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    background: var(--clr-dark);
+}
+
+.surveys-text {
+    color: black;
+    background: var(--clr-light);
+    height: auto;
+    max-height: 50px;
+    margin-top: 5%;
+    margin-left: 2%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border: 2px solid var(--clr-accent);
+    box-shadow: 1px 13px 36px 11px rgba(255,255,255,0.54);
 }
